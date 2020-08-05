@@ -12,7 +12,7 @@ typora-copy-images-to: ./resources
 
 - 先在github创建个人仓库，这个仓库就是后续上传文件的远程仓库，这个操作很简单，这里就不赘述，我这里创建的仓库名是''maven-repo''，如下
 
-![maven仓库](/Users/tonygui/github/maven-repository/repository/resources/maven仓库.png)
+​     ![https://github.com/TonyGui7/maven-repo/blob/master/resources/maven-repo.png]()
 
 - 在本地指定目录下创建本地仓库和上述远程仓库关联，其实就是git常用操作，我这里本地仓库的路径如下
 
@@ -34,11 +34,11 @@ typora-copy-images-to: ./resources
 
 - 将您个人的library库进行打包，并上传到本地仓库，譬如这里将如下库打包
 
-  ![打包](/Users/tonygui/github/maven-repository/repository/resources/打包.png)
+  ![https://github.com/TonyGui7/maven-repo/blob/master/resources/packaging.png]()
 
 打包的gradle脚本如下
 
-![仓库发布](/Users/tonygui/github/maven-repository/repository/resources/仓库发布.jpeg)
+![https://github.com/TonyGui7/maven-repo/blob/master/resources/publish-script.jpeg]()
 
 其中repository_url就是上面创建的本地仓库路径
 
@@ -48,7 +48,7 @@ file:/Users/tonygui/github/maven-repository/repository/
 
 对android studio而言，可在右侧的gradle面板中会有uopload任务，双击即可执行，如下
 
-![发布操作](/Users/tonygui/github/maven-repository/repository/resources/发布操作.jpeg)
+![https://github.com/TonyGui7/maven-repo/blob/master/resources/publish-operation.jpeg]()
 
 之后在本地仓库中就出现打包的文件，然后按照平常git提交代码一样，将文件推送至远程仓库。
 

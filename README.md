@@ -1,7 +1,3 @@
----
-typora-copy-images-to: ./resources
----
-
 # maven-repo (Github仓库搭建配置)
 
 ## 背景
